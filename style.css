@@ -1,0 +1,29 @@
+body {
+    color: #fff;
+    background-color: #222;
+}
+
+table { border-spacing: 0.25em; }
+td {
+    width: 6rem;
+    height: 6rem;
+    max-width: 6rem;
+    max-height: 6rem;
+    text-align: center;
+    padding: 0;
+} td > button {
+    padding: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+} .line-spacer {
+    height: 6rem;
+} #lanthanoids, #actinoids {
+    text-align: center;
+}
+
+
+
+.elemname, .atomass { position: relative; top: -0.25em; }
+.atomnum { font-size: 0.8em; width: fit-content; margin-left: 0.4em; }
+.symbol { font-size: 2.5em; position: relative; top: -0.1em; }
+.atomass { font-size: 0.75em; }
