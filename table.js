@@ -1,4 +1,4 @@
-const meta = fetch('./elements.json')
+const meta = fetch('./element-data.json')
     .then((res) => res.json())
     .then((data) => {
         main(data)
