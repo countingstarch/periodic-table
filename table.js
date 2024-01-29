@@ -1,38 +1,19 @@
-const meta = fetch('./element-data.json')
-    .then((res) => res.json())
-    .then((data) => {
-        main(data)
-    })
+const elementElements = document.querySelectorAll('.element');
 
-const main = (data) => {
-    const elements = data
-    const tablecells = document.querySelectorAll("td");
-    for (i of tablecells) {
-        if (i.id) {
-            const obj = elements[i.id]
-            const btn = document.createElement('button');
-            const a = document.createElement("div"); a.classList.add('atomnum');
-            const b = document.createElement("div"); b.classList.add('symbol');
-            const c = document.createElement("div"); c.classList.add('elemname');
-            const d = document.createElement("div"); d.classList.add('atomass');
-
-            a.textContent = obj.num;
-            b.textContent = Object.keys(elements)[Object.keys(elements).indexOf(i.id)];
-            c.textContent = obj.name;
-            d.textContent = obj.mass;
-
-            btn.append(a, b, c, d);
-            i.append(btn)
-
-            if (elements[i.id].num > 103) {
-                btn.setAttribute('tabindex', '5')
-            } else if (elements[i.id].num > 88) {
-                btn.setAttribute('tabindex', '4')
-            } else if (elements[i.id].num > 71) {
-                btn.setAttribute('tabindex', '3')
-            } else if (elements[i.id].num > 56) {
-                btn.setAttribute('tabindex', '2')
-            } else { btn.setAttribute('tabindex', '1') }
-        }
-    }
+const colour = document.querySelectorAll('.colour');
+const obj = {
+    'c': ['property', 'block', 'phase', 'custom']
 }
+
+const classify = (pre, fix) => {
+    for (i of elementElements) {
+        for (n of obj[pre]) {
+            i.classList.remove(`${pre}-${n}`)
+        }; i.classList.add(`${pre}-${fix}`);
+    };
+};
+
+colour[0].addEventListener('change', () => classify('c', 'property'));
+colour[1].addEventListener('change', () => classify('c', 'block'));
+colour[2].addEventListener('change', () => classify('c', 'phase'));
+colour[3].addEventListener('change', () => classify('c', 'custom'));
