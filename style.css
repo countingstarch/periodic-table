@@ -3,22 +3,24 @@ body {
     background-color: #222;
 }
 
-table { border-spacing: 0.25em; }
-td {
-    width: 6rem;
-    height: 6rem;
-    max-width: 6rem;
-    max-height: 6rem;
-    text-align: center;
-    padding: 0;
+table {
+    border-spacing: 0.25em;
+    table-layout: fixed;
 } td > button {
     padding: 0;
     width: 100%;
     aspect-ratio: 1/1;
+} td {
+    min-width: 96px;
+    height: 96px;
+    text-align: center;
+    padding: 0;
 } .line-spacer {
     height: 6rem;
 } #lanthanoids, #actinoids {
     text-align: center;
+} .cell-spacer {
+    visibility: hidden;
 }
 
 
