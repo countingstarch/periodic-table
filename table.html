@@ -1,167 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="buttons.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Periodic table</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+        <link rel="stylesheet" href="colour-by-property.css">
+        <link rel="stylesheet" href="colour-by-block.css">
+        <link rel="stylesheet" href="colour-custom.css">
+    </head>
+    
+    <body>
+        <noscript>To customize this table, please enable JavaScript.</noscript>
 
-<body>
-    <h1>Periodic table</h1>
-    <noscript>JavaScript is disabled.<br>Please enable scripts for the site.</noscript>
+        <div id="settings">
+            <legend id="colour">
+                <input type="radio" name="colour" id="colour-by-property" class="colour radio" value="property" checked>
+                <label for="colour-by-property">colour by property</label>
+                <input type="radio" name="colour" id="colour-by-block" class="colour radio" value="block">
+                <label for="colour-by-block">colour by block</label>
+                <input type="radio" name="colour" id="colour-by-phase" class="colour radio" value="property" checked>
+                <label for="colour-by-phase">colour by phase</label>
+                <input type="radio" name="colour" id="colour-custom" class="colour radio" value="custom">
+                <label for="colour-custom">Custom colours</label>
+            </legend>
+        </div>
 
-    <table>
-        <tbody>
-            <tr>
-                <td id="H"></td>
-                <td colspan="16" class="cell-spacer"></td>
-                <td id="He"></td>
-            </tr>
-            <tr>
-                <td id="Li"></td>
-                <td id="Be"></td>
-                <td rowspan="2" colspan="10" class="cell-spacer"></td>
-                <td id="B"></td>
-                <td id="C"></td>
-                <td id="N"></td>
-                <td id="O"></td>
-                <td id="F"></td>
-                <td id="Ne"></td>
-            </tr>
-            <tr>
-                <td id="Na"></td>
-                <td id="Mg"></td>
-                <td id="Al"></td>
-                <td id="Si"></td>
-                <td id="P"></td>
-                <td id="S"></td>
-                <td id="Cl"></td>
-                <td id="Ar"></td>
-            </tr>
-            <tr>
-                <td id="K"></td>
-                <td id="Ca"></td>
-                <td id="Sc"></td>
-                <td id="Ti"></td>
-                <td id="V"></td>
-                <td id="Cr"></td>
-                <td id="Mn"></td>
-                <td id="Fe"></td>
-                <td id="Co"></td>
-                <td id="Ni"></td>
-                <td id="Cu"></td>
-                <td id="Zn"></td>
-                <td id="Ga"></td>
-                <td id="Ge"></td>
-                <td id="As"></td>
-                <td id="Se"></td>
-                <td id="Br"></td>
-                <td id="Kr"></td>
-            </tr>
-            <tr>
-                <td id="Rb"></td>
-                <td id="Sr"></td>
-                <td id="Y"></td>
-                <td id="Zr"></td>
-                <td id="Nb"></td>
-                <td id="Mo"></td>
-                <td id="Tc"></td>
-                <td id="Ru"></td>
-                <td id="Rh"></td>
-                <td id="Pd"></td>
-                <td id="Ag"></td>
-                <td id="Cd"></td>
-                <td id="In"></td>
-                <td id="Sn"></td>
-                <td id="Sb"></td>
-                <td id="Te"></td>
-                <td id="I"></td>
-                <td id="Xe"></td>
-            </tr>
-            <tr>
-                <td id="Cs"></td>
-                <td id="Ba"></td>
-                <td class="cell-spacer"></td>
-                <td id="Hf"></td>
-                <td id="Ta"></td>
-                <td id="W"></td>
-                <td id="Re"></td>
-                <td id="Os"></td>
-                <td id="Ir"></td>
-                <td id="Pt"></td>
-                <td id="Au"></td>
-                <td id="Hg"></td>
-                <td id="Tl"></td>
-                <td id="Pb"></td>
-                <td id="Bi"></td>
-                <td id="Po"></td>
-                <td id="At"></td>
-                <td id="Rn"></td>
-            </tr>
-            <tr>
-                <td id="Fr"></td>
-                <td id="Ra"></td>
-                <td class="cell-spacer"></td>
-                <td id="Rf"></td>
-                <td id="Db"></td>
-                <td id="Sg"></td>
-                <td id="Bh"></td>
-                <td id="Hs"></td>
-                <td id="Mt"></td>
-                <td id="Ds"></td>
-                <td id="Rg"></td>
-                <td id="Cn"></td>
-                <td id="Nh"></td>
-                <td id="Fl"></td>
-                <td id="Mc"></td>
-                <td id="Lv"></td>
-                <td id="Ts"></td>
-                <td id="Og"></td>
-            </tr>
-            <tr class="line-spacer"></tr>
-            <tr id="lanthanoids">
-                <td colspan="2" class="cell-spacer"></td>
-                <td id="La"></td>
-                <td id="Ce"></td>
-                <td id="Pr"></td>
-                <td id="Nd"></td>
-                <td id="Pm"></td>
-                <td id="Sm"></td>
-                <td id="Eu"></td>
-                <td id="Gd"></td>
-                <td id="Tb"></td>
-                <td id="Dy"></td>
-                <td id="Ho"></td>
-                <td id="Er"></td>
-                <td id="Tm"></td>
-                <td id="Yb"></td>
-                <td id="Lu"></td>
-            </tr>
-            <tr id="actinoids">
-                <td colspan="2" class="cell-spacer"></td>
-                <td id="Ac"></td>
-                <td id="Th"></td>
-                <td id="Pa"></td>
-                <td id="U"></td>
-                <td id="Np"></td>
-                <td id="Pu"></td>
-                <td id="Am"></td>
-                <td id="Cm"></td>
-                <td id="Bk"></td>
-                <td id="Cf"></td>
-                <td id="Es"></td>
-                <td id="Fm"></td>
-                <td id="Md"></td>
-                <td id="No"></td>
-                <td id="Lr"></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <script src="./table.js"></script>
-</body>
-
+        <table>
+            <tbody>
+                <tr>
+                    <td id="H" class="element"><button tabindex="1"><div class="atomnum">1</div><div class="symbol">H</div><div class="elemname">Hydrogen</div><div class="atomass">1.008</div></button></td>
+                    <td colspan="16" class="cell-spacer element"></td>
+                    <td id="He" class="element"><button tabindex="1"><div class="atomnum">2</div><div class="symbol">He</div><div class="elemname">Helium</div><div class="atomass">4.0026</div></button></td>
+                </tr>
+                <tr>
+                    <td id="Li" class="element"><button tabindex="1"><div class="atomnum">3</div><div class="symbol">Li</div><div class="elemname">Lithium</div><div class="atomass">6.94</div></button></td>
+                    <td id="Be" class="element"><button tabindex="1"><div class="atomnum">4</div><div class="symbol">Be</div><div class="elemname">Beryllium</div><div class="atomass">9.0122</div></button></td>
+                    <td rowspan="2" colspan="10" class="cell-spacer"></td>
+                    <td id="B" class="element"><button tabindex="1"><div class="atomnum">5</div><div class="symbol">B</div><div class="elemname">Boron</div><div class="atomass">10.81</div></button></td>
+                    <td id="C" class="element"><button tabindex="1"><div class="atomnum">6</div><div class="symbol">C</div><div class="elemname">Carbon</div><div class="atomass">12.011</div></button></td>
+                    <td id="N" class="element"><button tabindex="1"><div class="atomnum">7</div><div class="symbol">N</div><div class="elemname">Nitrogen</div><div class="atomass">14.007</div></button></td>
+                    <td id="O" class="element"><button tabindex="1"><div class="atomnum">8</div><div class="symbol">O</div><div class="elemname">Oxygen</div><div class="atomass">15.999</div></button></td>
+                    <td id="F" class="element"><button tabindex="1"><div class="atomnum">9</div><div class="symbol">F</div><div class="elemname">Fluorine</div><div class="atomass">18.998</div></button></td>
+                    <td id="Ne" class="element"><button tabindex="1"><div class="atomnum">10</div><div class="symbol">Ne</div><div class="elemname">Neon</div><div class="atomass">20.18</div></button></td>
+                </tr>
+                <tr>
+                    <td id="Na" class="element"><button tabindex="1"><div class="atomnum">11</div><div class="symbol">Na</div><div class="elemname">Natrium</div><div class="atomass">22.99</div></button></td>
+                    <td id="Mg" class="element"><button tabindex="1"><div class="atomnum">12</div><div class="symbol">Mg</div><div class="elemname">Magnesium</div><div class="atomass">24.305</div></button></td>
+                    <td id="Al" class="element"><button tabindex="1"><div class="atomnum">13</div><div class="symbol">Al</div><div class="elemname">Aluminium</div><div class="atomass">26.982</div></button></td>
+                    <td id="Si" class="element"><button tabindex="1"><div class="atomnum">14</div><div class="symbol">Si</div><div class="elemname">Silicon</div><div class="atomass">28.085</div></button></td>
+                    <td id="P" class="element"><button tabindex="1"><div class="atomnum">15</div><div class="symbol">P</div><div class="elemname">Phosphorus</div><div class="atomass">30.974</div></button></td>
+                    <td id="S" class="element"><button tabindex="1"><div class="atomnum">16</div><div class="symbol">S</div><div class="elemname">Sulfur</div><div class="atomass">32.06</div></button></td>
+                    <td id="Cl" class="element"><button tabindex="1"><div class="atomnum">17</div><div class="symbol">Cl</div><div class="elemname">Chlorine</div><div class="atomass">35.45</div></button></td>
+                    <td id="Ar" class="element"><button tabindex="1"><div class="atomnum">18</div><div class="symbol">Ar</div><div class="elemname">Argon</div><div class="atomass">39.95</div></button></td>
+                </tr>
+                <tr>
+                    <td id="K" class="element"><button tabindex="1"><div class="atomnum">19</div><div class="symbol">K</div><div class="elemname">Kalium</div><div class="atomass">39.098</div></button></td>
+                    <td id="Ca" class="element"><button tabindex="1"><div class="atomnum">20</div><div class="symbol">Ca</div><div class="elemname">Calcium</div><div class="atomass">40.078</div></button></td>
+                    <td id="Sc" class="element"><button tabindex="1"><div class="atomnum">21</div><div class="symbol">Sc</div><div class="elemname">Scandium</div><div class="atomass">44.956</div></button></td>
+                    <td id="Ti" class="element"><button tabindex="1"><div class="atomnum">22</div><div class="symbol">Ti</div><div class="elemname">Titanium</div><div class="atomass">47.867</div></button></td>
+                    <td id="V" class="element"><button tabindex="1"><div class="atomnum">23</div><div class="symbol">V</div><div class="elemname">Vanadium</div><div class="atomass">50.942</div></button></td>
+                    <td id="Cr" class="element"><button tabindex="1"><div class="atomnum">24</div><div class="symbol">Cr</div><div class="elemname">Chromium</div><div class="atomass">51.996</div></button></td>
+                    <td id="Mn" class="element"><button tabindex="1"><div class="atomnum">25</div><div class="symbol">Mn</div><div class="elemname">Manganese</div><div class="atomass">54.938</div></button></td>
+                    <td id="Fe" class="element"><button tabindex="1"><div class="atomnum">26</div><div class="symbol">Fe</div><div class="elemname">Ferrum</div><div class="atomass">55.845</div></button></td>
+                    <td id="Co" class="element"><button tabindex="1"><div class="atomnum">27</div><div class="symbol">Co</div><div class="elemname">Cobalt</div><div class="atomass">58.933</div></button></td>
+                    <td id="Ni" class="element"><button tabindex="1"><div class="atomnum">28</div><div class="symbol">Ni</div><div class="elemname">Nickel</div><div class="atomass">58.693</div></button></td>
+                    <td id="Cu" class="element"><button tabindex="1"><div class="atomnum">29</div><div class="symbol">Cu</div><div class="elemname">Cuprum</div><div class="atomass">63.546</div></button></td>
+                    <td id="Zn" class="element"><button tabindex="1"><div class="atomnum">30</div><div class="symbol">Zn</div><div class="elemname">Zinc</div><div class="atomass">65.38</div></button></td>
+                    <td id="Ga" class="element"><button tabindex="1"><div class="atomnum">31</div><div class="symbol">Ga</div><div class="elemname">Gallium</div><div class="atomass">69.723</div></button></td>
+                    <td id="Ge" class="element"><button tabindex="1"><div class="atomnum">32</div><div class="symbol">Ge</div><div class="elemname">Germanium</div><div class="atomass">72.63</div></button></td>
+                    <td id="As" class="element"><button tabindex="1"><div class="atomnum">33</div><div class="symbol">As</div><div class="elemname">Arsenic</div><div class="atomass">74.922</div></button></td>
+                    <td id="Se" class="element"><button tabindex="1"><div class="atomnum">34</div><div class="symbol">Se</div><div class="elemname">Selenium</div><div class="atomass">78.971</div></button></td>
+                    <td id="Br" class="element"><button tabindex="1"><div class="atomnum">35</div><div class="symbol">Br</div><div class="elemname">Bromine</div><div class="atomass">79.904</div></button></td>
+                    <td id="Kr" class="element"><button tabindex="1"><div class="atomnum">36</div><div class="symbol">Kr</div><div class="elemname">Krypton</div><div class="atomass">83.798</div></button></td>
+                </tr>
+                <tr>
+                    <td id="Rb" class="element"><button tabindex="1"><div class="atomnum">37</div><div class="symbol">Rb</div><div class="elemname">Rubidium</div><div class="atomass">85.468</div></button></td>
+                    <td id="Sr" class="element"><button tabindex="1"><div class="atomnum">38</div><div class="symbol">Sr</div><div class="elemname">Strontium</div><div class="atomass">87.62</div></button></td>
+                    <td id="Y" class="element"><button tabindex="1"><div class="atomnum">39</div><div class="symbol">Y</div><div class="elemname">Yttrium</div><div class="atomass">88.906</div></button></td>
+                    <td id="Zr" class="element"><button tabindex="1"><div class="atomnum">40</div><div class="symbol">Zr</div><div class="elemname">Zirconium</div><div class="atomass">91.224</div></button></td>
+                    <td id="Nb" class="element"><button tabindex="1"><div class="atomnum">41</div><div class="symbol">Nb</div><div class="elemname">Niobium</div><div class="atomass">92.906</div></button></td>
+                    <td id="Mo" class="element"><button tabindex="1"><div class="atomnum">42</div><div class="symbol">Mo</div><div class="elemname">Molybdenum</div><div class="atomass">95.95</div></button></td>
+                    <td id="Tc" class="element"><button tabindex="1"><div class="atomnum">43</div><div class="symbol">Tc</div><div class="elemname">Technetium</div><div class="atomass">97</div></button></td>
+                    <td id="Ru" class="element"><button tabindex="1"><div class="atomnum">44</div><div class="symbol">Ru</div><div class="elemname">Ruthenium</div><div class="atomass">101.07</div></button></td>
+                    <td id="Rh" class="element"><button tabindex="1"><div class="atomnum">45</div><div class="symbol">Rh</div><div class="elemname">Rhodium</div><div class="atomass">102.91</div></button></td>
+                    <td id="Pd" class="element"><button tabindex="1"><div class="atomnum">46</div><div class="symbol">Pd</div><div class="elemname">Palladium</div><div class="atomass">106.42</div></button></td>
+                    <td id="Ag" class="element"><button tabindex="1"><div class="atomnum">47</div><div class="symbol">Ag</div><div class="elemname">Argentum</div><div class="atomass">107.87</div></button></td>
+                    <td id="Cd" class="element"><button tabindex="1"><div class="atomnum">48</div><div class="symbol">Cd</div><div class="elemname">Cadmium</div><div class="atomass">112.41</div></button></td>
+                    <td id="In" class="element"><button tabindex="1"><div class="atomnum">49</div><div class="symbol">In</div><div class="elemname">Indium</div><div class="atomass">114.82</div></button></td>
+                    <td id="Sn" class="element"><button tabindex="1"><div class="atomnum">50</div><div class="symbol">Sn</div><div class="elemname">Stannum</div><div class="atomass">118.71</div></button></td>
+                    <td id="Sb" class="element"><button tabindex="1"><div class="atomnum">51</div><div class="symbol">Sb</div><div class="elemname">Stibium</div><div class="atomass">121.76</div></button></td>
+                    <td id="Te" class="element"><button tabindex="1"><div class="atomnum">52</div><div class="symbol">Te</div><div class="elemname">Tellurium</div><div class="atomass">127.6</div></button></td>
+                    <td id="I" class="element"><button tabindex="1"><div class="atomnum">53</div><div class="symbol">I</div><div class="elemname">Iodine</div><div class="atomass">126.9</div></button></td>
+                    <td id="Xe" class="element"><button tabindex="1"><div class="atomnum">54</div><div class="symbol">Xe</div><div class="elemname">Xenon</div><div class="atomass">131.29</div></button></td>
+                </tr>
+                <tr>
+                    <td id="Cs" class="element"><button tabindex="1"><div class="atomnum">55</div><div class="symbol">Cs</div><div class="elemname">Cesium</div><div class="atomass">132.91</div></button></td>
+                    <td id="Ba" class="element"><button tabindex="1"><div class="atomnum">56</div><div class="symbol">Ba</div><div class="elemname">Barium</div><div class="atomass">137.33</div></button></td>
+                    <td class="cell-spacer"></td>
+                    <td id="Hf" class="element"><button tabindex="3"><div class="atomnum">72</div><div class="symbol">Hf</div><div class="elemname">Hafnium</div><div class="atomass">178.49</div></button></td>
+                    <td id="Ta" class="element"><button tabindex="3"><div class="atomnum">73</div><div class="symbol">Ta</div><div class="elemname">Tantalum</div><div class="atomass">180.95</div></button></td>
+                    <td id="W" class="element"><button tabindex="3"><div class="atomnum">74</div><div class="symbol">W</div><div class="elemname">Wolfram</div><div class="atomass">183.84</div></button></td>
+                    <td id="Re" class="element"><button tabindex="3"><div class="atomnum">75</div><div class="symbol">Re</div><div class="elemname">Rhenium</div><div class="atomass">186.21</div></button></td>
+                    <td id="Os" class="element"><button tabindex="3"><div class="atomnum">76</div><div class="symbol">Os</div><div class="elemname">Osmium</div><div class="atomass">190.2</div></button></td>
+                    <td id="Ir" class="element"><button tabindex="3"><div class="atomnum">77</div><div class="symbol">Ir</div><div class="elemname">Iridium</div><div class="atomass">192.22</div></button></td>
+                    <td id="Pt" class="element"><button tabindex="3"><div class="atomnum">78</div><div class="symbol">Pt</div><div class="elemname">Platinum</div><div class="atomass">195.08</div></button></td>
+                    <td id="Au" class="element"><button tabindex="3"><div class="atomnum">79</div><div class="symbol">Au</div><div class="elemname">Aurum</div><div class="atomass">196.97</div></button></td>
+                    <td id="Hg" class="element"><button tabindex="3"><div class="atomnum">80</div><div class="symbol">Hg</div><div class="elemname">Hydrargyrum</div><div class="atomass">200.59</div></button></td>
+                    <td id="Tl" class="element"><button tabindex="3"><div class="atomnum">81</div><div class="symbol">Tl</div><div class="elemname">Thallium</div><div class="atomass">204.38</div></button></td>
+                    <td id="Pb" class="element"><button tabindex="3"><div class="atomnum">82</div><div class="symbol">Pb</div><div class="elemname">Plumbum</div><div class="atomass">207.2</div></button></td>
+                    <td id="Bi" class="element"><button tabindex="3"><div class="atomnum">83</div><div class="symbol">Bi</div><div class="elemname">Bismuth</div><div class="atomass">208.98</div></button></td>
+                    <td id="Po" class="element"><button tabindex="3"><div class="atomnum">84</div><div class="symbol">Po</div><div class="elemname">Polonium</div><div class="atomass">209</div></button></td>
+                    <td id="At" class="element"><button tabindex="3"><div class="atomnum">85</div><div class="symbol">At</div><div class="elemname">Astatine</div><div class="atomass">210</div></button></td>
+                    <td id="Rn" class="element"><button tabindex="3"><div class="atomnum">86</div><div class="symbol">Rn</div><div class="elemname">Radon</div><div class="atomass">222</div></button></td>
+                </tr>
+                <tr>
+                    <td id="Fr" class="element"><button tabindex="3"><div class="atomnum">87</div><div class="symbol">Fr</div><div class="elemname">Francium</div><div class="atomass">223</div></button></td>
+                    <td id="Ra" class="element"><button tabindex="3"><div class="atomnum">88</div><div class="symbol">Ra</div><div class="elemname">Radium</div><div class="atomass">226</div></button></td>
+                    <td class="cell-spacer"></td>
+                    <td id="Rf" class="element"><button tabindex="5"><div class="atomnum">104</div><div class="symbol">Rf</div><div class="elemname">Rutherfordium</div><div class="atomass">267</div></button></td>
+                    <td id="Db" class="element"><button tabindex="5"><div class="atomnum">105</div><div class="symbol">Db</div><div class="elemname">Dubnium</div><div class="atomass">268</div></button></td>
+                    <td id="Sg" class="element"><button tabindex="5"><div class="atomnum">106</div><div class="symbol">Sg</div><div class="elemname">Seaborgium</div><div class="atomass">269</div></button></td>
+                    <td id="Bh" class="element"><button tabindex="5"><div class="atomnum">107</div><div class="symbol">Bh</div><div class="elemname">Bohrium</div><div class="atomass">270</div></button></td>
+                    <td id="Hs" class="element"><button tabindex="5"><div class="atomnum">108</div><div class="symbol">Hs</div><div class="elemname">Hassium</div><div class="atomass">269</div></button></td>
+                    <td id="Mt" class="element"><button tabindex="5"><div class="atomnum">109</div><div class="symbol">Mt</div><div class="elemname">Meitnerium</div><div class="atomass">278</div></button></td>
+                    <td id="Ds" class="element"><button tabindex="5"><div class="atomnum">110</div><div class="symbol">Ds</div><div class="elemname">Darmstadtium</div><div class="atomass">281</div></button></td>
+                    <td id="Rg" class="element"><button tabindex="5"><div class="atomnum">111</div><div class="symbol">Rg</div><div class="elemname">Roentgenium</div><div class="atomass">282</div></button></td>
+                    <td id="Cn" class="element"><button tabindex="5"><div class="atomnum">112</div><div class="symbol">Cn</div><div class="elemname">Copernicium</div><div class="atomass">285</div></button></td>
+                    <td id="Nh" class="element"><button tabindex="5"><div class="atomnum">113</div><div class="symbol">Nh</div><div class="elemname">Nihonium</div><div class="atomass">286</div></button></td>
+                    <td id="Fl" class="element"><button tabindex="5"><div class="atomnum">114</div><div class="symbol">Fl</div><div class="elemname">Flerovium</div><div class="atomass">289</div></button></td>
+                    <td id="Mc" class="element"><button tabindex="5"><div class="atomnum">115</div><div class="symbol">Mc</div><div class="elemname">Moscovium</div><div class="atomass">290</div></button></td>
+                    <td id="Lv" class="element"><button tabindex="5"><div class="atomnum">116</div><div class="symbol">Lv</div><div class="elemname">Livermorium</div><div class="atomass">293</div></button></td>
+                    <td id="Ts" class="element"><button tabindex="5"><div class="atomnum">117</div><div class="symbol">Ts</div><div class="elemname">Tennessine</div><div class="atomass">294</div></button></td>
+                    <td id="Og" class="element"><button tabindex="5"><div class="atomnum">118</div><div class="symbol">Og</div><div class="elemname">Oganesson</div><div class="atomass">294</div></button></td>
+                </tr>
+                <tr class="line-spacer"></tr>
+                <tr id="lanthanoids">
+                    <td colspan="2" class="cell-spacer"></td>
+                    <td id="La" class="element"><button tabindex="2"><div class="atomnum">57</div><div class="symbol">La</div><div class="elemname">Lanthanum</div><div class="atomass">138.91</div></button></td>
+                    <td id="Ce" class="element"><button tabindex="2"><div class="atomnum">58</div><div class="symbol">Ce</div><div class="elemname">Cerium</div><div class="atomass">140.12</div></button></td>
+                    <td id="Pr" class="element"><button tabindex="2"><div class="atomnum">59</div><div class="symbol">Pr</div><div class="elemname">Praseodymium</div><div class="atomass">140.91</div></button></td>
+                    <td id="Nd" class="element"><button tabindex="2"><div class="atomnum">60</div><div class="symbol">Nd</div><div class="elemname">Neodymium</div><div class="atomass">144.24</div></button></td>
+                    <td id="Pm" class="element"><button tabindex="2"><div class="atomnum">61</div><div class="symbol">Pm</div><div class="elemname">Promethium</div><div class="atomass">145</div></button></td>
+                    <td id="Sm" class="element"><button tabindex="2"><div class="atomnum">62</div><div class="symbol">Sm</div><div class="elemname">Samarium</div><div class="atomass">150.36</div></button></td>
+                    <td id="Eu" class="element"><button tabindex="2"><div class="atomnum">63</div><div class="symbol">Eu</div><div class="elemname">Europium</div><div class="atomass">151.96</div></button></td>
+                    <td id="Gd" class="element"><button tabindex="2"><div class="atomnum">64</div><div class="symbol">Gd</div><div class="elemname">Gadolinium</div><div class="atomass">157.25</div></button></td>
+                    <td id="Tb" class="element"><button tabindex="2"><div class="atomnum">65</div><div class="symbol">Tb</div><div class="elemname">Terbium</div><div class="atomass">158.93</div></button></td>
+                    <td id="Dy" class="element"><button tabindex="2"><div class="atomnum">66</div><div class="symbol">Dy</div><div class="elemname">Dysprosium</div><div class="atomass">162.5</div></button></td>
+                    <td id="Ho" class="element"><button tabindex="2"><div class="atomnum">67</div><div class="symbol">Ho</div><div class="elemname">Holmium</div><div class="atomass">164.93</div></button></td>
+                    <td id="Er" class="element"><button tabindex="2"><div class="atomnum">68</div><div class="symbol">Er</div><div class="elemname">Erbium</div><div class="atomass">167.26</div></button></td>
+                    <td id="Tm" class="element"><button tabindex="2"><div class="atomnum">69</div><div class="symbol">Tm</div><div class="elemname">Thulium</div><div class="atomass">168.93</div></button></td>
+                    <td id="Yb" class="element"><button tabindex="2"><div class="atomnum">70</div><div class="symbol">Yb</div><div class="elemname">Ytterbium</div><div class="atomass">173.05</div></button></td>
+                    <td id="Lu" class="element"><button tabindex="2"><div class="atomnum">71</div><div class="symbol">Lu</div><div class="elemname">Lutetium</div><div class="atomass">174.97</div></button></td>
+                </tr>
+                <tr id="actinoids">
+                    <td colspan="2" class="cell-spacer"></td>
+                    <td id="Ac" class="element"><button tabindex="4"><div class="atomnum">89</div><div class="symbol">Ac</div><div class="elemname">Actinium</div><div class="atomass">227</div></button></td>
+                    <td id="Th" class="element"><button tabindex="4"><div class="atomnum">90</div><div class="symbol">Th</div><div class="elemname">Thorium</div><div class="atomass">232.04</div></button></td>
+                    <td id="Pa" class="element"><button tabindex="4"><div class="atomnum">91</div><div class="symbol">Pa</div><div class="elemname">Protactinium</div><div class="atomass">231.04</div></button></td>
+                    <td id="U" class="element"><button tabindex="4"><div class="atomnum">92</div><div class="symbol">U</div><div class="elemname">Uranium</div><div class="atomass">238.03</div></button></td>
+                    <td id="Np" class="element"><button tabindex="4"><div class="atomnum">93</div><div class="symbol">Np</div><div class="elemname">Neptunium</div><div class="atomass">(237)</div></button></td>
+                    <td id="Pu" class="element"><button tabindex="4"><div class="atomnum">94</div><div class="symbol">Pu</div><div class="elemname">Plutonium</div><div class="atomass">244</div></button></td>
+                    <td id="Am" class="element"><button tabindex="4"><div class="atomnum">95</div><div class="symbol">Am</div><div class="elemname">Americium</div><div class="atomass">243</div></button></td>
+                    <td id="Cm" class="element"><button tabindex="4"><div class="atomnum">96</div><div class="symbol">Cm</div><div class="elemname">Curium</div><div class="atomass">247</div></button></td>
+                    <td id="Bk" class="element"><button tabindex="4"><div class="atomnum">97</div><div class="symbol">Bk</div><div class="elemname">Berkelium</div><div class="atomass">247</div></button></td>
+                    <td id="Cf" class="element"><button tabindex="4"><div class="atomnum">98</div><div class="symbol">Cf</div><div class="elemname">Californium</div><div class="atomass">251</div></button></td>
+                    <td id="Es" class="element"><button tabindex="4"><div class="atomnum">99</div><div class="symbol">Es</div><div class="elemname">Einsteinium</div><div class="atomass">252</div></button></td>
+                    <td id="Fm" class="element"><button tabindex="4"><div class="atomnum">100</div><div class="symbol">Fm</div><div class="elemname">Fermium</div><div class="atomass">257</div></button></td>
+                    <td id="Md" class="element"><button tabindex="4"><div class="atomnum">101</div><div class="symbol">Md</div><div class="elemname">Mendelevium</div><div class="atomass">258</div></button></td>
+                    <td id="No" class="element"><button tabindex="4"><div class="atomnum">102</div><div class="symbol">No</div><div class="elemname">Nobelium</div><div class="atomass">259</div></button></td>
+                    <td id="Lr" class="element"><button tabindex="4"><div class="atomnum">103</div><div class="symbol">Lr</div><div class="elemname">Lawrencium</div><div class="atomass">266</div></button></td>
+                </tr>
+            </tbody>
+        </table>
+    <script src="./app.js"></script>
+    </body>
 </html>
