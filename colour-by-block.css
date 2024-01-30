@@ -1,0 +1,9 @@
+.colour-block.block-s > button {
+    background-color: #e95353;
+} .colour-block.block-p > button {
+    background-color: #659edf;
+} .colour-block.block-d > button {
+    background-color: #ffce64;
+} .colour-block.block-f > button {
+    background-color: #7fffdf;
+}

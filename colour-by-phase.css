@@ -1,0 +1,9 @@
+.colour-phase.phase-solid > button {
+    background-color: #39cca0;
+}.colour-phase.phase-liquid > button {
+    background-color: #38b4e6;
+}.colour-phase.phase-gas > button {
+    background-color: #a686ff;
+}.colour-phase.phase-unknown > button {
+    background-color: #bfbfbf;
+}

@@ -1,0 +1,1064 @@
+{
+    "H": {
+        "name": "Hydrogen",
+        "num": 1,
+        "mass": 1.008,
+        "abridging": 0.0002,
+        "property": "nonmetal",
+        "block": "s",
+        "phase": "gas"
+    },
+    "He": {
+        "name": "Helium",
+        "num": 2,
+        "mass": 4.0026,
+        "abridging": 0.0001,
+        "property": "noblegas",
+        "block": "s",
+        "phase": "gas"
+    },
+    "Li": {
+        "name": "Lithium",
+        "num": 3,
+        "mass": 6.94,
+        "abridging": 0.06,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Be": {
+        "name": "Beryllium",
+        "num": 4,
+        "mass": 9.0122,
+        "abridging": 0.0001,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "B": {
+        "name": "Boron",
+        "num": 5,
+        "mass": 10.81,
+        "abridging": 0.02,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "C": {
+        "name": "Carbon",
+        "num": 6,
+        "mass": 12.011,
+        "abridging": 0.002,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "N": {
+        "name": "Nitrogen",
+        "num": 7,
+        "mass": 14.007,
+        "abridging": 0.001,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "gas"
+    },
+    "O": {
+        "name": "Oxygen",
+        "num": 8,
+        "mass": 15.999,
+        "abridging": 0.001,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "gas"
+    },
+    "F": {
+        "name": "Fluorine",
+        "num": 9,
+        "mass": 18.998,
+        "abridging": 0.001,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Ne": {
+        "name": "Neon",
+        "num": 10,
+        "mass": 20.18,
+        "abridging": 0.001,
+        "property": "noblegas",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Na": {
+        "name": "Natrium",
+        "num": 11,
+        "mass": 22.99,
+        "abridging": 0.001,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Mg": {
+        "name": "Magnesium",
+        "num": 12,
+        "mass": 24.305,
+        "abridging": 0.002,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Al": {
+        "name": "Aluminium",
+        "num": 13,
+        "mass": 26.982,
+        "abridging": 0.001,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Si": {
+        "name": "Silicon",
+        "num": 14,
+        "mass": 28.085,
+        "abridging": 0.001,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "P": {
+        "name": "Phosphorus",
+        "num": 15,
+        "mass": 30.974,
+        "abridging": 0.001,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "S": {
+        "name": "Sulfur",
+        "num": 16,
+        "mass": 32.06,
+        "abridging": 0.02,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Cl": {
+        "name": "Chlorine",
+        "num": 17,
+        "mass": 35.45,
+        "abridging": 0.01,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Ar": {
+        "name": "Argon",
+        "num": 18,
+        "mass": 39.95,
+        "abridging": 0.16,
+        "property": "noblegas",
+        "block": "p",
+        "phase": "gas"
+    },
+    "K": {
+        "name": "Kalium",
+        "num": 19,
+        "mass": 39.098,
+        "abridging": 0.001,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Ca": {
+        "name": "Calcium",
+        "num": 20,
+        "mass": 40.078,
+        "abridging": 0.004,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Sc": {
+        "name": "Scandium",
+        "num": 21,
+        "mass": 44.956,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ti": {
+        "name": "Titanium",
+        "num": 22,
+        "mass": 47.867,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "V": {
+        "name": "Vanadium",
+        "num": 23,
+        "mass": 50.942,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Cr": {
+        "name": "Chromium",
+        "num": 24,
+        "mass": 51.996,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Mn": {
+        "name": "Manganese",
+        "num": 25,
+        "mass": 54.938,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Fe": {
+        "name": "Ferrum",
+        "num": 26,
+        "mass": 55.845,
+        "abridging": 0.002,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Co": {
+        "name": "Cobalt",
+        "num": 27,
+        "mass": 58.933,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ni": {
+        "name": "Nickel",
+        "num": 28,
+        "mass": 58.693,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Cu": {
+        "name": "Cuprum",
+        "num": 29,
+        "mass": 63.546,
+        "abridging": 0.003,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Zn": {
+        "name": "Zinc",
+        "num": 30,
+        "mass": 65.38,
+        "abridging": 0.02,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ga": {
+        "name": "Gallium",
+        "num": 31,
+        "mass": 69.723,
+        "abridging": 0.001,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Ge": {
+        "name": "Germanium",
+        "num": 32,
+        "mass": 72.63,
+        "abridging": 0.008,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "As": {
+        "name": "Arsenic",
+        "num": 33,
+        "mass": 74.922,
+        "abridging": 0.001,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Se": {
+        "name": "Selenium",
+        "num": 34,
+        "mass": 78.971,
+        "abridging": 0.008,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Br": {
+        "name": "Bromine",
+        "num": 35,
+        "mass": 79.904,
+        "abridging": 0.003,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "liquid"
+    },
+    "Kr": {
+        "name": "Krypton",
+        "num": 36,
+        "mass": 83.798,
+        "abridging": 0.002,
+        "property": "noblegas",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Rb": {
+        "name": "Rubidium",
+        "num": 37,
+        "mass": 85.468,
+        "abridging": 0.001,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Sr": {
+        "name": "Strontium",
+        "num": 38,
+        "mass": 87.62,
+        "abridging": 0.01,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Y": {
+        "name": "Yttrium",
+        "num": 39,
+        "mass": 88.906,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Zr": {
+        "name": "Zirconium",
+        "num": 40,
+        "mass": 91.224,
+        "abridging": 0.002,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Nb": {
+        "name": "Niobium",
+        "num": 41,
+        "mass": 92.906,
+        "abridging": 0.001,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Mo": {
+        "name": "Molybdenum",
+        "num": 42,
+        "mass": 95.95,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Tc": {
+        "name": "Technetium",
+        "num": 43,
+        "mass": 97,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ru": {
+        "name": "Ruthenium",
+        "num": 44,
+        "mass": 101.07,
+        "abridging": 0.02,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Rh": {
+        "name": "Rhodium",
+        "num": 45,
+        "mass": 102.91,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Pd": {
+        "name": "Palladium",
+        "num": 46,
+        "mass": 106.42,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ag": {
+        "name": "Argentum",
+        "num": 47,
+        "mass": 107.87,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Cd": {
+        "name": "Cadmium",
+        "num": 48,
+        "mass": 112.41,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "In": {
+        "name": "Indium",
+        "num": 49,
+        "mass": 114.82,
+        "abridging": 0.01,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Sn": {
+        "name": "Stannum",
+        "num": 50,
+        "mass": 118.71,
+        "abridging": 0.01,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Sb": {
+        "name": "Stibium",
+        "num": 51,
+        "mass": 121.76,
+        "abridging": 0.01,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Te": {
+        "name": "Tellurium",
+        "num": 52,
+        "mass": 127.6,
+        "abridging": 0.03,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "I": {
+        "name": "Iodine",
+        "num": 53,
+        "mass": 126.9,
+        "abridging": 0.01,
+        "property": "nonmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Xe": {
+        "name": "Xenon",
+        "num": 54,
+        "mass": 131.29,
+        "abridging": 0.01,
+        "property": "noblegas",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Cs": {
+        "name": "Cesium",
+        "num": 55,
+        "mass": 132.91,
+        "abridging": 0.01,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Ba": {
+        "name": "Barium",
+        "num": 56,
+        "mass": 137.33,
+        "abridging": 0.01,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "La": {
+        "name": "Lanthanum",
+        "num": 57,
+        "mass": 138.91,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Ce": {
+        "name": "Cerium",
+        "num": 58,
+        "mass": 140.12,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Pr": {
+        "name": "Praseodymium",
+        "num": 59,
+        "mass": 140.91,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Nd": {
+        "name": "Neodymium",
+        "num": 60,
+        "mass": 144.24,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Pm": {
+        "name": "Promethium",
+        "num": 61,
+        "mass": 145,
+        "abridging": null,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Sm": {
+        "name": "Samarium",
+        "num": 62,
+        "mass": 150.36,
+        "abridging": 0.02,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Eu": {
+        "name": "Europium",
+        "num": 63,
+        "mass": 151.96,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Gd": {
+        "name": "Gadolinium",
+        "num": 64,
+        "mass": 157.25,
+        "abridging": 0.03,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Tb": {
+        "name": "Terbium",
+        "num": 65,
+        "mass": 158.93,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Dy": {
+        "name": "Dysprosium",
+        "num": 66,
+        "mass": 162.5,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Ho": {
+        "name": "Holmium",
+        "num": 67,
+        "mass": 164.93,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Er": {
+        "name": "Erbium",
+        "num": 68,
+        "mass": 167.26,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Tm": {
+        "name": "Thulium",
+        "num": 69,
+        "mass": 168.93,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Yb": {
+        "name": "Ytterbium",
+        "num": 70,
+        "mass": 173.05,
+        "abridging": 0.02,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Lu": {
+        "name": "Lutetium",
+        "num": 71,
+        "mass": 174.97,
+        "abridging": 0.01,
+        "property": "lanthanoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Hf": {
+        "name": "Hafnium",
+        "num": 72,
+        "mass": 178.49,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ta": {
+        "name": "Tantalum",
+        "num": 73,
+        "mass": 180.95,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "W": {
+        "name": "Wolfram",
+        "num": 74,
+        "mass": 183.84,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Re": {
+        "name": "Rhenium",
+        "num": 75,
+        "mass": 186.21,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Os": {
+        "name": "Osmium",
+        "num": 76,
+        "mass": 190.2,
+        "abridging": 0.03,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Ir": {
+        "name": "Iridium",
+        "num": 77,
+        "mass": 192.22,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Pt": {
+        "name": "Platinum",
+        "num": 78,
+        "mass": 195.08,
+        "abridging": 0.02,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Au": {
+        "name": "Aurum",
+        "num": 79,
+        "mass": 196.97,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Hg": {
+        "name": "Hydrargyrum",
+        "num": 80,
+        "mass": 200.59,
+        "abridging": 0.01,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "liquid"
+    },
+    "Tl": {
+        "name": "Thallium",
+        "num": 81,
+        "mass": 204.38,
+        "abridging": 0.01,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Pb": {
+        "name": "Plumbum",
+        "num": 82,
+        "mass": 207.2,
+        "abridging": 1.1,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Bi": {
+        "name": "Bismuth",
+        "num": 83,
+        "mass": 208.98,
+        "abridging": 0.01,
+        "property": "postransitionmetal",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Po": {
+        "name": "Polonium",
+        "num": 84,
+        "mass": 209,
+        "abridging": null,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "At": {
+        "name": "Astatine",
+        "num": 85,
+        "mass": 210,
+        "abridging": null,
+        "property": "metalloid",
+        "block": "p",
+        "phase": "solid"
+    },
+    "Rn": {
+        "name": "Radon",
+        "num": 86,
+        "mass": 222,
+        "abridging": null,
+        "property": "noblegas",
+        "block": "p",
+        "phase": "gas"
+    },
+    "Fr": {
+        "name": "Francium",
+        "num": 87,
+        "mass": 223,
+        "abridging": null,
+        "property": "alkalimetal",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Ra": {
+        "name": "Radium",
+        "num": 88,
+        "mass": 226,
+        "abridging": null,
+        "property": "alkalinearth",
+        "block": "s",
+        "phase": "solid"
+    },
+    "Ac": {
+        "name": "Actinium",
+        "num": 89,
+        "mass": 227,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Th": {
+        "name": "Thorium",
+        "num": 90,
+        "mass": 232.04,
+        "abridging": 0.01,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Pa": {
+        "name": "Protactinium",
+        "num": 91,
+        "mass": 231.04,
+        "abridging": 0.01,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "U": {
+        "name": "Uranium",
+        "num": 92,
+        "mass": 238.03,
+        "abridging": 0.01,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Np": {
+        "name": "Neptunium",
+        "num": 93,
+        "mass": 237,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Pu": {
+        "name": "Plutonium",
+        "num": 94,
+        "mass": 244,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Am": {
+        "name": "Americium",
+        "num": 95,
+        "mass": 243,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Cm": {
+        "name": "Curium",
+        "num": 96,
+        "mass": 247,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Bk": {
+        "name": "Berkelium",
+        "num": 97,
+        "mass": 247,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Cf": {
+        "name": "Californium",
+        "num": 98,
+        "mass": 251,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Es": {
+        "name": "Einsteinium",
+        "num": 99,
+        "mass": 252,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Fm": {
+        "name": "Fermium",
+        "num": 100,
+        "mass": 257,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Md": {
+        "name": "Mendelevium",
+        "num": 101,
+        "mass": 258,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "No": {
+        "name": "Nobelium",
+        "num": 102,
+        "mass": 259,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Lr": {
+        "name": "Lawrencium",
+        "num": 103,
+        "mass": 266,
+        "abridging": null,
+        "property": "actinoid",
+        "block": "f",
+        "phase": "solid"
+    },
+    "Rf": {
+        "name": "Rutherfordium",
+        "num": 104,
+        "mass": 267,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Db": {
+        "name": "Dubnium",
+        "num": 105,
+        "mass": 268,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Sg": {
+        "name": "Seaborgium",
+        "num": 106,
+        "mass": 269,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Bh": {
+        "name": "Bohrium",
+        "num": 107,
+        "mass": 270,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Hs": {
+        "name": "Hassium",
+        "num": 108,
+        "mass": 269,
+        "abridging": null,
+        "property": "transitionmetal",
+        "block": "d",
+        "phase": "solid"
+    },
+    "Mt": {
+        "name": "Meitnerium",
+        "num": 109,
+        "mass": 278,
+        "abridging": null,
+        "property": "unknown",
+        "block": "d",
+        "phase": "unknown"
+    },
+    "Ds": {
+        "name": "Darmstadtium",
+        "num": 110,
+        "mass": 281,
+        "abridging": null,
+        "property": "unknown",
+        "block": "d",
+        "phase": "unknown"
+    },
+    "Rg": {
+        "name": "Roentgenium",
+        "num": 111,
+        "mass": 282,
+        "abridging": null,
+        "property": "unknown",
+        "block": "d",
+        "phase": "unknown"
+    },
+    "Cn": {
+        "name": "Copernicium",
+        "num": 112,
+        "mass": 285,
+        "abridging": null,
+        "property": "unknown",
+        "block": "d",
+        "phase": "unknown"
+    },
+    "Nh": {
+        "name": "Nihonium",
+        "num": 113,
+        "mass": 286,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    },
+    "Fl": {
+        "name": "Flerovium",
+        "num": 114,
+        "mass": 289,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    },
+    "Mc": {
+        "name": "Moscovium",
+        "num": 115,
+        "mass": 290,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    },
+    "Lv": {
+        "name": "Livermorium",
+        "num": 116,
+        "mass": 293,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    },
+    "Ts": {
+        "name": "Tennessine",
+        "num": 117,
+        "mass": 294,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    },
+    "Og": {
+        "name": "Oganesson",
+        "num": 118,
+        "mass": 294,
+        "abridging": null,
+        "property": "unknown",
+        "block": "p",
+        "phase": "unknown"
+    }
+}
