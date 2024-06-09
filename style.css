@@ -29,3 +29,7 @@ table {
 .atomnum { font-size: 0.8em; width: fit-content; margin-left: 0.4em; }
 .symbol { font-size: 2.5em; position: relative; top: -0.1em; }
 .atomass { font-size: 0.75em; }
+
+#settings {
+    visibility: collapse;
+}
