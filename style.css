@@ -1,11 +1,15 @@
+html { height: 100%; }
 body {
     color: #fff;
     background-color: #222;
+    height: 100%;
+    margin: 0;
 }
 
 table {
     border-spacing: 0.25em;
     table-layout: fixed;
+    margin: auto;
 } td > button {
     padding: 0;
     width: 100%;
@@ -31,5 +35,8 @@ table {
 .atomass { font-size: 0.75em; }
 
 #settings {
-    visibility: collapse;
+    position: absolute;
+} .container {
+    height: 100%;
+    display: flex;
 }
