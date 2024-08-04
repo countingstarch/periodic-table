@@ -1,0 +1,23 @@
+:root {
+    --property-alkalimetal: #e95353;
+    --property-alkalinearth: #ff8d1a;
+    --property-transitionmetal: #ffce64;
+    --property-postransitionmetal: #76ca5c;
+    --property-metalloid: #32ce78;
+    --property-nonmetal: #65b8df;
+    --property-halogen: #8989e6;
+    --property-noblegas: #e08ee0;
+    --property-lanthanoid: #2ccf99;
+    --property-actinoid: #66b89c;
+} :root {
+    --phase-solid: #39cca0;
+    --phase-liquid: #659edf;
+    --phase-gas: #a686ff;
+} :root {
+    --block-s: #e95353;
+    --block-p: #659edf;
+    --block-d: #ffce64;
+    --block-f: #7fffdf;
+}
+
+:root { --unknown: #bfbfbf; }

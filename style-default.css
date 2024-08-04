@@ -1,0 +1,45 @@
+@import './colours.css';
+
+.colour-property.property-alkalimetal > button {
+    background-color: var(--property-alkalimetal)
+} .colour-property.property-alkalinearth > button {
+    background-color: var(--property-alkalinearth)
+} .colour-property.property-transitionmetal > button {
+    background-color: var(--property-transitionmetal)
+} .colour-property.property-postransitionmetal > button {
+    background-color: var(--property-postransitionmetal)
+} .colour-property.property-metalloid > button {
+    background-color: var(--property-metalloid)
+} .colour-property.property-nonmetal > button {
+    background-color: var(--property-nonmetal)
+} .colour-property.property-halogen > button {
+    background-color: var(--property-halogen)
+} .colour-property.property-noblegas > button {
+    background-color: var(--property-noblegas)
+} .colour-property.property-lanthanoid > button {
+    background-color: var(--property-lanthanoid)
+} .colour-property.property-actinoid > button {
+    background-color: var(--property-actinoid)
+}
+
+.colour-phase.phase-solid>button {
+    background-color: var(--phase-solid)
+} .colour-phase.phase-liquid>button {
+    background-color: var(--phase-liquid)
+} .colour-phase.phase-gas>button {
+    background-color: var(--phase-gas)
+}
+
+.colour-block.block-s>button {
+    background-color: var(--block-s)
+} .colour-block.block-p>button {
+    background-color: var(--block-p)
+} .colour-block.block-d>button {
+    background-color: var(--block-d)
+} .colour-block.block-f>button {
+    background-color: var(--block-f)
+}
+
+.colour-property.property-unknown > button, .colour-phase.phase-unknown > button  {
+    background-color: var(--unknown)
+}   
